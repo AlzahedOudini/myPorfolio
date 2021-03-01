@@ -1,0 +1,170 @@
+@media screen and (max-width: 1200px){
+  .timeline-content{
+    width: 85% !important;
+
+    .icone{
+      display: none;
+    }
+    
+  }
+  .timeline::before{
+    display: none;
+  }
+}
+@media screen and (max-width: 992px){
+  .home{
+    .home-container{
+      display: flex;
+      justify-content: space-between;
+      .home-data{
+        .home-name{
+          font-size: 46px;
+        }
+      }
+    }
+  }
+  .timeline-content{
+    width: 100%;
+    gap: 20px;
+    display: block;
+    justify-content: center !important;
+  }
+  .c2{
+    align-items: flex-start !important;
+  }
+  .timeline-item{
+    width: 100% !important;
+  }
+}
+@media screen and (max-width: 968px){
+  
+  $big-font-size: 1.125rem;
+  $bigger-font-size: 1.75rem;
+  $biggest-font-size: 3rem;
+  $normal-font-size: 1rem;
+  $smaller-font-size: .875rem;
+  
+  .home,.about{
+    height: auto;
+  }
+  .home{
+    display: block;
+    margin-top: 6rem;
+    text-align: center;
+    .home-container{
+      flex-direction: column-reverse !important;
+    }
+  }
+  .home-social,.btn-box{
+    justify-content: center;
+  }
+  
+  .about-content{
+    display: block;
+    flex-wrap: wrap;
+    .about-data{
+      margin-top: 40px;
+      text-align: center;
+    }
+  }
+  
+}
+
+@media screen and (max-width: 844px){
+  
+}
+
+@media screen and (max-width: 768px){
+  
+  .nav-menu{
+    position: fixed;
+    top: -100%;
+    left: 0;
+    right: 0;
+    width: 80%;
+    margin: 0 auto;
+    background: $bg-color;
+    padding: 2.5rem 0 0;
+    transition: .4s;
+    box-shadow: 0 0 4px rgba(0,0,0,0.1);
+    border-radius: 2rem;
+    z-index: 100;
+    text-align: center;
+  }
+  .content-hire{
+    .hire-box{
+      display: block !important;
+      text-align: center;
+      height: auto !important;
+      padding: 40px !important;
+      .btn-content{
+        display: flex;
+        justify-content: center;
+        .btn-hire{
+          width:180px;
+        }
+      }
+      
+    }
+  }
+}
+@media screen and (min-width: 769px){
+  
+  .nav-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .nav-item{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      align-content: center;
+      margin-top: 1rem;
+    }
+  }
+  .nav-toggle{
+    display: none;
+  }
+  
+}
+
+@media screen and (max-width: 568px){
+  .logo{
+    .nav-logo-text{
+      display: none;
+    }
+  }
+  .home-name{
+    font-size: 36px !important;
+  }
+  .home-box{
+    width: auto;
+    display: flex;
+    justify-content: center;
+    
+    img{
+      width: 250px !important;
+      height: 250px !important;
+    }
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

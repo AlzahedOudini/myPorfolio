@@ -1,0 +1,64 @@
+.l-header{
+  overflow: hidden;
+}
+.bd-container{
+  width: calc(100% - $header-height);
+  margin-left: $mb-3;
+  margin-right: $mb-3;
+}
+.bd-grid{
+  display: grid;
+  gap: 1.5rem;
+}
+.l-header{
+  width: 100%;
+  position: fixed;
+  height: $header-height;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  background: $bg-color;
+
+}
+.nav{
+  height: $header-height;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  .my-toggle{
+    font-size: 25px;
+  }
+}
+.nav-item{
+  margin-bottom: $mb-2;
+}
+
+.nav-link, .nav-logo, .nav-toggle{
+  font-weight: 600;
+  text-transform: capitalize;
+}
+.nav-link:hover{
+  color: $main-color;
+}
+.nav-toggle{
+  font-size: $big-font-size;
+  cursor: pointer;
+}
+.logo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.nav-logo{
+  font-size: 1.4rem;
+  margin-left: 5px;
+  img{
+    width: 50px;
+    height: 50px;
+  }
+}
+.show-menu{
+  top: 5rem;
+}
